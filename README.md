@@ -1,7 +1,7 @@
 simplify2
 =========
 
-This is another version of Vladimir Agafonkin's awesome simplify.js library for doing high-performance polyline
+This is another version of Vladimir Agafonkin's awesome [simplify.js] library for doing high-performance polyline
 simplification in JavaScript primarily using the Ramer-Douglas-Peucker simplification algorithm.
 
 Simplify2.js is a collection of similar simplification algorithms that has been somewhat optimized. The douglasPeucker() function does not require any temporary internal memory constructs with a size proportional to the input (for marker array and stack); the use of recursion of cause requires use of some number of stack frames - but this will in practice be very few. The math and flow has also been tweaked so that fewer calculations are needed.
@@ -22,3 +22,6 @@ Usage
         
     // run the douglas-peucker simplification 
     var simplifiedPoints = simplify.douglasPeucker(pointsArray, tolerance);
+
+
+[simplify.js]: http://leafletjs.com/download.html
