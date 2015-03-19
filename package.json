@@ -1,0 +1,32 @@
+{
+  "name": "simplify2-js",
+  "version": "1.0.0",
+  "description": "A collection of line simplification algorithms.",
+  "author": "Anders Goettsche",
+  "keywords": [
+    "math",
+    "geometry",
+    "line",
+    "simplification",
+    "douglas",
+    "peucker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geonome/simplify2-js.git"
+  },
+  "main": "simplify2.js",
+  "devDependencies": {
+    "tape": "^3.5.0",
+    "tap-spec": "1.0.0",
+    "jshint": "^2.6.3"
+  },
+  "scripts": {
+    "test": "jshint simplify2.js test.js && node test.js | tap-spec"
+  },
+  "jshintConfig": {
+    "quotmark": "single",
+    "trailing": true,
+    "unused": false
+  }
+}
