@@ -1,3 +1,6 @@
+simplify2
+=========
+
 This is another version of Vladimir Agafonkin's awesome simplify.js library for doing high-performance polyline
 simplification in JavaScript primarily using the Ramer-Douglas-Peucker simplification algorithm.
 
@@ -9,3 +12,12 @@ output (e.g. needed for LOD generation).
 Additional test cases have been added.
 
 Please see in-code API docs.
+
+Usage
+-----
+
+ var simplify = require('simplify2r');
+ 
+ simplify.douglasPeucker(somePoints, tolerance);
+ 
+ 
