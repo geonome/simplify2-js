@@ -17,11 +17,11 @@ Usage
 -----
     var simplify = require('simplify2');
     ...
-    var pointArray = [...], // array of {x, y} objects.
+    var points = [...], // array of {x, y} objects.
         tolerance = 0.2;
         
     // run the douglas-peucker simplification 
-    var simplifiedPoints = simplify.douglasPeucker(pointsArray, tolerance);
+    var simplifiedPoints = simplify.douglasPeucker(points, tolerance);
 
 
 [Vladimir Agafonkin]: http://agafonkin.com/en
