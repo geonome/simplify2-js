@@ -10,3 +10,5 @@ A quite noticeable speedup can be observed on large inputs (>100K+ point) with a
 output (e.g. needed for LOD generation).
 
 Additional test cases have been added.
+
+Please see in-code API docs.
