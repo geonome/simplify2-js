@@ -7,6 +7,6 @@ use of recursion of cause requires use of some number of stack frames - but this
 and flow has also been tweaked so that fewer calculations are needed.
 
 A quite noticeable speedup can be observed on large inputs (>100K+ point) with a low tolerance < 1 for high fidelity
-output (needed for e.g. LOD generation).
+output (e.g. needed for LOD generation).
 
 Additional test cases have been added.
