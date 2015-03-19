@@ -17,6 +17,6 @@ Usage
 -----
     var simplify = require('simplify2');
     ...
-    var somePointArray = [...],
+    var pointArray = [...], // array of {x, y} objects.
         tolerance = 0.2;
-    var simplifiedPoints = simplify.douglasPeucker(somePointsArray, tolerance);
+    var simplifiedPoints = simplify.douglasPeucker(pointsArray, tolerance);
