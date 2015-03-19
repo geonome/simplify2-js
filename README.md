@@ -15,11 +15,7 @@ Please see in-code API docs.
 
 Usage
 -----
-    var lineReader = require('line-reader');
-
-   
-var simplify = require('simplify2r');
- 
- simplify.douglasPeucker(somePoints, tolerance);
- 
- 
+    var simplify = require('simplify2');
+    
+    var somePointArray = [...];
+    var simplifiedPoints = simplify.douglasPeucker(somePointsArray, tolerance);
