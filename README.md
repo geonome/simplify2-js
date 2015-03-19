@@ -19,4 +19,6 @@ Usage
     ...
     var pointArray = [...], // array of {x, y} objects.
         tolerance = 0.2;
+        
+    // run the douglas-peucker simplification 
     var simplifiedPoints = simplify.douglasPeucker(pointsArray, tolerance);
